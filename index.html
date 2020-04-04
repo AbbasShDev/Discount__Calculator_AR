@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبةالخصم</title>
+      <!-- bootstrap css-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!-- main css -->
+     <link rel="stylesheet" href="css/main.css">
+     <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <div class="jumbotron jumbotron-fluid bg-transparent col-sm-10 col-md-8 col-lg-6">
+        <div class="container">
+            <h3>حاسبة الخصم</h1>
+            <form>
+                
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="textColor">السعر قبل الخصم</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">$</span>
+                    </div>
+                    <input type="text" class="form-control orgPrice" placeholder="السعر الاصلي" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="formGroupExampleInput2" class="textColor">الخصم</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text .textColor" id="basic-addon1">%</span>
+                    </div>
+                    <input type="text" class="form-control DiscAmount" placeholder="مقدار الخصم" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+                <div class="text-center">
+                <button type="button" class="btn btn-secondary calc">حساب</button>
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2" class="textColor resultHeader">السعر قبل الخصم</label>
+                    <div class="displayOriginal resultColor"></div>
+                    <label for="formGroupExampleInput2" class="textColor resultHeader">سعر الخصم</label>
+                    <div class="displayDiscount resultColor"></div>
+                    <label for="formGroupExampleInput2" class="textColor resultHeader">السعر بعد الخصم</label>
+                    <div class="displayResult resultColor"></div>
+
+
+                  </div>
+              </form>
+        </div>
+      </div>
+    <!-- jquery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- script js -->
+ <script src="js/app.js"></script>
+</body>
+</html>

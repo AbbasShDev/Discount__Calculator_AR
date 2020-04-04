@@ -1,0 +1,121 @@
+body{
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Roboto; 
+}
+
+h3{
+  color: #341152;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.textColor{
+  color: #341152;
+}
+.jumbotron{
+  text-align: right;
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 2%;
+  position:relative;
+  overflow:hidden;
+}
+.input-group-text{
+  color: #341152;
+  border: none;
+  background: #CDB5C7;
+  
+}
+.form-control{
+  border:2px solid #CDB5C7;
+  background:none;
+  color: #ffffff;
+  outline: none;
+}
+
+.form-control:focus{
+  color: #ffff;
+  border:2px solid #CDB5C7;
+  box-shadow: none;
+  background: none;
+}
+.resultHeader{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+.resultColor{
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.form-control::-moz-placeholder {
+  color: #ffffff;
+  text-align: right;
+}
+.form-control:-ms-input-placeholder {
+  color: #ffffff;
+  text-align: right;
+}
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+  text-align: right;
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+  
+  background:rgba(0,0,0,0.2);
+  padding:2rem;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:3px;
+}
+
+#DiscTypeDiv .input-group-text{
+  color: #341152;
+  background:none;
+  border: none;
+  padding-left: 5px;
+}
+
+#typeDisplay{
+  float: left;
+}
+
+input{
+  text-align: right;
+}
+
+.btn-secondary{
+  outline: none !important;
+  box-shadow: none !important;
+  margin-bottom: 20px;
+  background: #623D6A;
+  border-color:#623D6A;
+  border: 1px solid transparent;
+}
+.btn-secondary:hover{
+  outline: none !important;
+  box-shadow: none !important;
+background: #724d7a;
+border-color:#724d7a;
+  border: 1px solid transparent;
+}
+.btn-secondary:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  background: #623D6A;
+  border-color:#623D6A;
+  border: 1px solid transparent;
+}
+.btn-secondary:active{
+  outline: none !important;
+  box-shadow: none !important;
+  background: #623D6A;
+  border-color:#623D6A;
+  border: 1px solid transparent;
+}
