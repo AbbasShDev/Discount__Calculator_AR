@@ -23,6 +23,13 @@ h3{
   position:relative;
   overflow:hidden;
 }
+
+#DigitMasg1{
+  color: red; 
+ }
+ #DigitMasg2{
+   color: red; 
+  }
 .input-group-text{
   color: #341152;
   border: none;
